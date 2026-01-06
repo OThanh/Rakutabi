@@ -1,2 +1,12 @@
 # ===== Environment =====
 .env
+# ===== Docker =====
+*.log
+docker-data/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
